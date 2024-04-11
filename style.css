@@ -1,0 +1,120 @@
+.t1{
+    color: rgb(66, 192, 255);
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 1500px;
+}
+
+.img56{
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;
+    border-radius: 1000px;
+}
+
+.a1{
+    padding-left: 270px;
+}
+
+.l{
+    padding-left: 100px;
+}
+
+.p{
+    padding-left: 100px;
+}
+
+.h{
+    padding-left: 100px;
+}
+
+.b{
+    padding-left: 100px;
+}
+
+.bb{
+    padding-left: 100px;
+}
+
+.background{
+    background-color: black;
+}
+
+.ima{
+    border-radius: 60px;
+    opacity: 1;
+   
+}
+
+.input{
+    border-radius: 60px;
+    background-color: rgb(71, 193, 254);
+    width: 150px;
+    height: 60px;
+    font-size: large;
+    font-weight: 600;
+    border-color: aqua; border-width: 3px;
+}
+
+.input:hover{
+    border-width: 5px;
+    background-color: aqua;
+    border-color: blue;
+}
+
+.i1{
+    border-radius: 360px;
+    height: 160px;
+    width: 200px;
+    padding: center;
+}
+
+.b2{
+    height: 100px;
+    width: 100;
+    border-radius: 1000px;
+    background-color: black;
+    
+}
+
+.b3{
+    height: 100px;
+    width: 100;
+    border-radius: 1000px;
+    background-color: black;
+    
+}
+
+.img2{
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+    margin-right: 100px;
+    padding: center;
+}
+
+.img2:hover{
+    height: 125px;
+    width: 125px;
+    border-radius: 1000px;
+    padding: center;
+}
+
+.img3{
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+    padding: center;
+
+}
+
+.img3:hover{
+    height: 125px;
+    width: 125px;
+    border-radius: 1000px;
+    margin-right: 100px;
+    padding: center;
+
+}
+
