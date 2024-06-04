@@ -112,7 +112,7 @@ recognition.onresult = function(event){
       readOut("mooch bai , baal natak maad beda fuck u");
       window.open("https://portal.baseedu.in/student");
    }
-   if(transcript.includes("jarvis , show me satelite images of P G S ,hubli , India")){
+   if(transcript.includes("jarvis satellite images")){
       console.log("yes")
       readOut("satelite image popping");
       window.open("https://www.google.com/maps/@15.3655958,75.099853,178m/data=!3m1!1e3!5m1!1e4?entry=ttu");
