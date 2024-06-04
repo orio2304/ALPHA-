@@ -34,7 +34,7 @@ recognition.onresult = function(event){
    if(transcript.includes("open instagram")){
       readOut("opening instagram sir");
    window.open("https://www.instagram.com/?hl=en");
-   }
+   }     
    if(transcript.includes("good morning")){
       readOut("goodmorning sir");
    }
@@ -70,11 +70,11 @@ recognition.onresult = function(event){
       readOut("opening youtube music ");
    window.open("https://music.youtube.com/watch?v=532toSHe57E&list=PLWfyBzs9p_5qSy_d-rmsMufri7aQy3Acs");
    }
-   if(transcript.includes("open my chats with sonu akka")){
+   if(transcript.includes("open chats with sonu ")){
       readOut("opening your chats with neel ");
    window.open("https://www.instagram.com/direct/t/115657086656501/?hl=en");
    }
-   if(transcript.includes("open my chats with neha akka")){
+   if(transcript.includes("open chats with neha ")){
       readOut("opening your chats with neha ");
    window.open("https://www.instagram.com/direct/t/17847165827719638/?hl=en");
    }
@@ -83,7 +83,7 @@ recognition.onresult = function(event){
       readOut("neha is a highly dumb species of reckless animal thinking she is smart but is one number haap and she is also a of sister of the smartest and the most handsome guy in the world prem");
    }
    if(transcript.includes("play inception in netflix")){
-      console.log("yes")
+      console.log("yes") 
       readOut("playing inception");
       window.open("https://www.netflix.com/browse?jbv=70131314");
    }
@@ -101,6 +101,21 @@ recognition.onresult = function(event){
       console.log("yes")
       readOut("opening github");
       window.open("https://github.com/");
+   }
+   if(transcript.includes("open base")){
+      console.log("yes")
+      readOut("opening base");
+      window.open("https://portal.baseedu.in/student");
+   }
+   if(transcript.includes("hi jarvis long time")){
+      console.log("yes")
+      readOut("mooch bai , baal natak maad beda fuck u");
+      window.open("https://portal.baseedu.in/student");
+   }
+   if(transcript.includes("jarvis , show me satelite images of P G S ,hubli , India")){
+      console.log("yes")
+      readOut("satelite image popping");
+      window.open("https://www.google.com/maps/@15.3655958,75.099853,178m/data=!3m1!1e3!5m1!1e4?entry=ttu");
    }
 };
 
