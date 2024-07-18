@@ -117,6 +117,16 @@ recognition.onresult = function(event){
       readOut("satelite image popping");
       window.open("https://www.google.com/maps/@15.3655958,75.099853,178m/data=!3m1!1e3!5m1!1e4?entry=ttu");
    }
+   if(transcript.includes("who is friday")){
+      console.log("yes")
+      readOut("friday , according to ironman movies it is an A I ");
+      
+   }
+   if(transcript.includes("call ayush")){
+      console.log("yes")
+      readOut("calling ayush ");
+      
+   }
 };
 
 
