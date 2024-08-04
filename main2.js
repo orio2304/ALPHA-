@@ -24,6 +24,7 @@ recognition.onresult = function(event){
    let transcript = event.results[current][0].transcript;
    transcript = transcript.toLowerCase();
    console.log(transcript);
+}
    
    if(transcript.includes("hello jarvis")){
       readOut("hello sir");
@@ -70,7 +71,7 @@ recognition.onresult = function(event){
    window.open("https://www.netflix.com/browse");
    a3.play();
    }
-   }
+   
    if(transcript.includes("open pinterest")){
       readOut("opening pinterest ");
    window.open("https://in.pinterest.com/");
