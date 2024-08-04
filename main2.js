@@ -25,7 +25,7 @@ recognition.onresult = function(event){
    transcript = transcript.toLowerCase();
    console.log(transcript);
    
-   if(transcript.includes("hello, jarvis")){
+   if(transcript.includes("hello jarvis")){
       readOut("hello sir");
    console.log("hello sir")
    var  audio = new Audio('mixkit-high-tech-bleep-confirmation-2520.wav');
@@ -163,14 +163,14 @@ recognition.onresult = function(event){
       readOut("in my opinion , kind of good guy , i have record you guys laugh vigorously ,i expect you and ayush as a good friend");
       a3.play();
    }
-   if(transcript.includes("wake up daddy's home ")){
+   if(transcript.includes("wake up daddys home ")){
       console.log("yes")
       readOut("welcome home sir , its been a long time without your commands");
       var a2 = new Audio('mixkit-fast-sci-fi-bleep-903.wav');
       a2.play();
    }
 
-   if(transcript.includes("jarvis , drop my needle")){
+   if(transcript.includes("jarvis  drop my needle")){
       console.log("yes")
       readOut("let's go ");
       windows.open("https://www.youtube.com/watch?v=X1gwWfmLVw4&list=WL&index=5");
